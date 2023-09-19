@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1004px)" href="phone.css">
+    <title>Utadangadi.com | Home</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/logo2.jpg" alt="Utadangadi logo">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Today's Special</a></li>
+            <li class="item"><a href="#branches">Order now</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">
+            Welcome to Utadangadi
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorum reprehenderit error.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum nisi temporibus atque.</p>
+        <button class="button">Order Now</button>
+    </section>
+    <section id="services">
+        <h1 class="h-primary center">
+            Why Utadangadi?
+        </h1>
+        <div id="columns">
+            <div class="box">
+                <img src="images/food1.png" alt="Food-item">
+                <h2 class="h-secondary center">
+                    Quality and Sanity of Food
+                </h2>
+                <p class="center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptates nostrum facilis placeat explicabo dolorum esse labore quibusdam iusto optio?. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis fugiat aliquid voluptatem?
+                </p>
+
+            </div>
+            <div class="box">
+                <img src="images/delivery.png" alt="Food-item">
+                <h2 class="h-secondary center">
+                    Fastest Home Delivery
+                </h2>
+                <p class="center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptates nostrum facilis placeat explicabo dolorum esse labore quibusdam iusto optio?. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis fugiat aliquid voluptatem?
+                </p>
+
+            </div>
+            <div class="box">
+                <img src="images/food2.png" alt="Food-item">
+                <h2 class="h-secondary center">
+                    The Best Fast Food in the City
+                </h2>
+                <p class="center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptates nostrum facilis placeat explicabo dolorum esse labore quibusdam iusto optio?. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis fugiat aliquid voluptatem?
+                </p>
+
+            </div>
+        
+        </div>
+    </section>
+    <section id="branches">
+        <h1 class="h-primary center">Our Other Branches</h1>
+        <div id="locations">
+            <div class="location-items">
+                <img src="images/mysore.jfif" alt="Mysore-city">
+            </div>
+            <div class="location-items">
+                <img src="images/bangalore.jpg" alt="Mysore-city">
+            </div>
+            <div class="location-items">
+                <img src="images/shimoga.jfif" alt="Mysore-city">
+            </div>
+            <div class="location-items">
+                <img src="images/udupi.jpg" alt="Mysore-city">
+            </div>
+            <div class="location-items">
+                <img src="images/hubli.jfif" alt="Mysore-city">
+            </div>
+            <div class="location-items">
+                <img src="images/mangalore.jpg" alt="Mysore-city">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email-Id:</label>
+                    <input type="email" name="name" id="email" placeholder="Enter Your E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="name">Phone no.:</label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="name">Suggestions/Complaints:</label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write here"></textarea>
+                </div>
+                <button class="button1" id="button1" onclick="submit()">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            All Rights Reserved | Copyrights &copy; Utadangadi, Kundapur
+        </div>
+    </footer>
+</body>
+<script>
+    function submit(){
+        let button1= document.getElementById('button1');
+    button1.style.display='click';
+    }
+    
+</script>
+</html>

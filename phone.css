@@ -1,0 +1,67 @@
+/* NAVIGATION BAR  */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar  ul li a{
+        font-size: 1rem;
+        /* padding: 0px 7px; */
+}
+
+/* HOME  */
+#home{
+    height: 324px;
+    padding: 3px 68px;
+    
+}
+#home::before{
+    height: 480px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/* BRANCHES */
+#columns{
+    flex-direction: column;
+   
+}
+#columns .box img{
+    overflow: hidden;
+}
+
+
+/* CONTACT US  */
+
+
+/* FOOTER  */
+
+
+/* UTILITY CLASS  */
+.h-primary{
+    font-size: 1.5rem;
+    padding: 12px;
+    font-family: 'Suez One', serif;
+}
+.button{
+    padding: 4px 8px;
+}
+.button1{
+    width: 131%;
+}
+
+#locations{
+    flex-wrap: wrap;
+}
+
+#locations img{
+
+}
+#locations::before{
+    height: 128%;
+}
+#locations img {
+    
+    width: 153px;
+}
